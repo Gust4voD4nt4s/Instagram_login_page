@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.smart-phones {
+    margin-top: 30px;
+    margin-right: -12px;
+    background-image: url(/img/phone.png);
+    width: 450px;
+    height: 610px;
+}
+
+#page {
+    position: relative;
+    left: 150px;
+    top: 100px;
+    width: 240px;
+    height: 427px;
+}
+
+.usuario {
+}
+
+.Logo img {
+    text-align: center;
+    margin: 30px auto 30px;
+    width: 175px;
+    height: 51px;
+}
+
+.Logar {
+    border-radius: 2px;
+    margin-top: 62px;
+    width: 350px;
+    height: 380px;
+    background-color:  white;
+    border: 1px solid rgb(190, 186, 186);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Logar p {
+    font-size: 12px;
+    margin: 10px 40px 18px;
+}
+
+#logoface {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+
+.Cadastrar {
+    background-color: white;
+    border: 1px solid rgb(190, 186, 186);
+    width: 350px;
+    margin-top: 10px;
+    height: 60px;
+    text-align: center;
+}
+
+input {
+    width: 265px;
+    height: 35px;
+    font-size: 12px;
+    padding: 5px; 
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 186, 186, 1);
+    background-color: rgb(250, 250, 250, 1);
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #b4dcfc;
+    margin-top: 15px;
+    width: 265px;
+    height: 30px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0494f4;
+    cursor: pointer;
+}
+
+#link1 {
+    @font-face {
+        font-family: klavika-bold;
+        src: url("klavika-bold.otf");
+    }
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3b539c;
+    
+
+}
+
+#link2 {
+    font-size: 12px;
+    margin-top: 30px;
+}
+.Store {
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.Store img {
+    width: 40%;
+    margin-top: 20px;
+}
+
+@media (max-width: 860px) {
+    .smart-phones {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .Logar {
+        border: none;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .Cadastrar {
+        border: none;
+        background-color: rgb(250, 250, 250);
+    }
+}
+
+@media (max-width: 250px) {
+    .Store img {
+        justify-content: center;
+    }
+}
